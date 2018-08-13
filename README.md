@@ -1,0 +1,1 @@
+# hamburg-freifunk-wp-theme
