@@ -4,6 +4,14 @@ FoundationPress relies to not-up-to-date dependencies, works with node.js ~6, us
 
 $ n 6
 
+keep dependencies updated
+
+$ ncu
+
+$ ncu -u
+
+(install ncu with $ npm install -g npm-check-updates)
+
 during design/development, render SCSS
 
 $ npm start
