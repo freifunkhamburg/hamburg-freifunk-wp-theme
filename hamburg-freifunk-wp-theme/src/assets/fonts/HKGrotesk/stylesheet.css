@@ -1,0 +1,100 @@
+/*
+Copyright (c) 2015, Alfredo Marco Pradil (hello@hanken.co), with Reserved Font Name HK Grotesk.
+https://hanken.co/product/hk-grotesk/
+
+Licence: SIL Open Font License (OFL)
+*/
+
+
+
+@font-face {
+    font-family: 'hk_groteskbold';
+    src: url('HKGrotesk-Bold.woff2') format('woff2'),
+         url('HKGrotesk-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'hk_groteskitalic';
+    src: url('HKGrotesk-Italic.woff2') format('woff2'),
+         url('HKGrotesk-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'hk_grotesklight';
+    src: url('HKGrotesk-Light.woff2') format('woff2'),
+         url('HKGrotesk-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'hk_grotesklight_italic';
+    src: url('HKGrotesk-LightItalic.woff2') format('woff2'),
+         url('HKGrotesk-LightItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'hk_groteskmedium';
+    src: url('HKGrotesk-Medium.woff2') format('woff2'),
+         url('HKGrotesk-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'hk_groteskregular';
+    src: url('HKGrotesk-Regular.woff2') format('woff2'),
+         url('HKGrotesk-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'hk_grotesksemibold';
+    src: url('HKGrotesk-SemiBold.woff2') format('woff2'),
+         url('HKGrotesk-SemiBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'hk_groteskbold';
+    src: url('HKGrotesk-Bold.woff2') format('woff2'),
+         url('HKGrotesk-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

@@ -1,0 +1,119 @@
+$freifunk-color-magenta: rgb(220,0,103);
+$freifunk-color-yellow:  rgb(255,180,0);
+$freifunk-color-blue: rgb(0,158,224);
+
+body {
+
+    font-family: hk_groteskmedium, "Helvetica Neue", sans-serif;
+    font-weight: normal;
+    line-height: 1.5;
+    color: #0a0a0a;
+
+}
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+  font-family: hk_groteskbold, "Helvetica Neue", sans-serif;
+}
+
+p, li, blockquote {
+    margin-bottom: 1rem;
+    font-size: inherit;
+    line-height: 1.6;
+    text-rendering: optimizeLegibility;
+    font-size: 20px;
+}
+
+.main-container {
+  a {
+    color: $freifunk-color-magenta;
+    border-bottom: 2px solid $freifunk-color-magenta;
+  }
+  a:hover, a:focus {
+    color: darken($freifunk-color-magenta,8%);
+    border-bottom: 4px solid darken($freifunk-color-magenta,8%);
+  }
+  h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+    a {
+      border-bottom: 0;
+    }
+  }
+  h1.entry-title, h2.entry-title {
+    margin-left: -30px;
+    @media screen and (max-width: 39.9375em) {
+      font-size: 1.55rem;
+      margin-left: -10px;
+    }
+  }
+  h1.entry-title::before,
+  h2.entry-title::before {
+    content: "➜";
+    display: inline-block;
+    padding-left: 0;
+    height: 0;
+    width: 0;
+    color: rgb(255,180,0);
+    transform: rotate(-45deg);
+    line-height: 1;
+    padding-right: 60px;
+    @media screen and (max-width: 39.9375em) {
+      font-size: 1.55rem;
+      padding-right: 36px;
+    }
+
+  }
+
+
+
+  article p {
+    margin-left: 32px;
+    margin-right: 65px;
+
+    @media screen and (max-width: 39.9375em) {
+      margin-left: 0;
+      margin-right: 0;
+
+    }
+
+  }
+  p.edit-link,
+  p.byline.author {
+    color: #644;
+    @media screen and (max-width: 39.9375em) {
+      font-size: 15px;
+    }
+    a {
+      color: #644;
+      border-bottom: 2px solid #644;
+    }
+  }
+
+  aside.sidebar .menu {
+    -webkit-flex-wrap: unset;
+    -ms-flex-wrap: unset;
+    flex-wrap: unset;
+    -webkit-flex-direction: unset;
+    -ms-flex-direction: unset;
+    flex-direction: unset;
+    display: block;
+    ul {
+      list-style-type: none;
+      margin-left: 0;
+    }
+    li::before {
+        content: "➜";
+        display: inline-block;
+        padding-left: 0;
+        height: 10px;
+        width: 23px;
+        color: rgb(255,180,0);
+        transform: rotate(-45deg);
+        line-height: 0.7;
+
+    }
+    a {
+      line-height: 1;
+      text-decoration: none;
+      display: inline;
+      padding: 0;
+    }
+  }
+}
