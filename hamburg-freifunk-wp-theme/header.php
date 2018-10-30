@@ -14,7 +14,7 @@
 	<head>
 		<meta charset="<?php bloginfo( 'charset' ); ?>" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel='stylesheet' id='fonts-css'  href='/wp-content/themes/FoundationPress/dist/assets/fonts/HKGrotesk/stylesheet.css' type='text/css' media='all' />
+		<link rel='stylesheet' id='fonts-css'  href='/wp-content/themes/hamburg-freifunk-wp-theme/dist/assets/fonts/HKGrotesk/stylesheet.css' type='text/css' media='all' />
 		<?php wp_head(); ?>
 	</head>
 	<body <?php body_class(); ?>>

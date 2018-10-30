@@ -13,14 +13,68 @@ body {
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   font-family: hk_groteskbold, "Helvetica Neue", sans-serif;
 }
+h6 {
+  font-family: hk_groteskbold, "Helvetica Neue", sans-serif;
+  text-transform: uppercase;
+  font-weight: normal;
+}
 
+.title-bar-left {
+    padding-left: 10px;
+    .menu-icon {
+      width: 18px;
+    }
+    a {
+     font-size: 1.2rem;
+    }
+}
+.title-bar-title {
+    padding-left: 5px;
+
+}
+.top-bar {
+
+  .menu  {
+      margin-right: 1rem;
+      li, li:not(:last-child) {
+        border-right: 0px solid #4e4e4e;
+        margin: 1rem 0;
+        a {
+          color: #e6e6e6;
+          padding: 1rem;
+          font-weight: normal;
+          font-size: 18px;
+          line-height: 1;
+        }
+        a::before {
+          content: url('../images/freifunk_pfeil.svg');
+          display: inline-block;
+          color: #ffb400;
+          line-height: 0;
+          transform: scale(0.6);
+          vertical-align: -10px;
+          width: 38px;
+          @media screen and (max-width: 39.9375em) {
+            transform: scale(0.5);
+            vertical-align: -10px;
+            width: 42px;
+          }
+        }
+      }
+  }
+}
 p, li, blockquote {
     margin-bottom: 1rem;
     font-size: inherit;
     line-height: 1.6;
     text-rendering: optimizeLegibility;
     font-size: 20px;
+    @media screen and (max-width: 39.9375em) {
+      line-height: 1.5;
+      font-size: 18px;
+    }
 }
+
 
 .main-container {
   a {
@@ -37,27 +91,28 @@ p, li, blockquote {
     }
   }
   h1.entry-title, h2.entry-title {
-    margin-left: -30px;
+    margin-left: -16px;
+    color: $freifunk-color-magenta;
     @media screen and (max-width: 39.9375em) {
       font-size: 1.55rem;
-      margin-left: -10px;
+      margin-left: -8px;
     }
   }
   h1.entry-title::before,
   h2.entry-title::before {
-    content: "➜";
+    content: url('../images/freifunk_pfeil.svg');
     display: inline-block;
-    padding-left: 0;
-    height: 0;
-    width: 0;
-    color: rgb(255,180,0);
-    transform: rotate(-45deg);
-    line-height: 1;
-    padding-right: 60px;
+    color: #ffb400;
+    line-height: 0;
+    transform: scale(0.7);
+    vertical-align: -5px;
+    width: 48px;
     @media screen and (max-width: 39.9375em) {
-      font-size: 1.55rem;
-      padding-right: 36px;
+      transform: scale(0.55);
+      vertical-align: -10px;
+      width: 42px;
     }
+
 
   }
 
@@ -84,9 +139,15 @@ p, li, blockquote {
       color: #644;
       border-bottom: 2px solid #644;
     }
+    a:hover {
+      color: #644;
+      border-bottom: 4px solid #644;
+    }
   }
 
-  aside.sidebar .menu {
+  aside.sidebar .menu,
+  aside.sidebar .widget
+  {
     -webkit-flex-wrap: unset;
     -ms-flex-wrap: unset;
     flex-wrap: unset;
@@ -97,8 +158,33 @@ p, li, blockquote {
     ul {
       list-style-type: none;
       margin-left: 0;
+      li {
+        margin: 1.5rem 0;
+      }
+      a  {
+        padding: 1rem;
+        border-bottom: none;
+      }
+      a:hover {
+        background-color: #e0e0f0;
+        background-color: #e6e6f0;
+      }
+      a::before {
+        content: url('../images/freifunk_pfeil.svg');
+        display: inline-block;
+        color: #ffb400;
+        line-height: 0;
+        transform: scale(0.6);
+        vertical-align: -10px;
+        width: 38px;
+        @media screen and (max-width: 39.9375em) {
+          transform: scale(0.5);
+          vertical-align: -10px;
+          width: 42px;
+        }
+      }
     }
-    li::before {
+    li::beforeX {
         content: "➜";
         display: inline-block;
         padding-left: 0;
