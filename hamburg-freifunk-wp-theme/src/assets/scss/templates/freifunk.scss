@@ -18,51 +18,6 @@ h6 {
   text-transform: uppercase;
   font-weight: normal;
 }
-
-.title-bar-left {
-    padding-left: 10px;
-    .menu-icon {
-      width: 18px;
-    }
-    a {
-     font-size: 1.2rem;
-    }
-}
-.title-bar-title {
-    padding-left: 5px;
-
-}
-.top-bar {
-
-  .menu  {
-      margin-right: 1rem;
-      li, li:not(:last-child) {
-        border-right: 0px solid #4e4e4e;
-        margin: 1rem 0;
-        a {
-          color: #e6e6e6;
-          padding: 1rem;
-          font-weight: normal;
-          font-size: 18px;
-          line-height: 1;
-        }
-        a::before {
-          content: url('../images/freifunk_pfeil.svg');
-          display: inline-block;
-          color: #ffb400;
-          line-height: 0;
-          transform: scale(0.6);
-          vertical-align: -10px;
-          width: 38px;
-          @media screen and (max-width: 39.9375em) {
-            transform: scale(0.5);
-            vertical-align: -10px;
-            width: 42px;
-          }
-        }
-      }
-  }
-}
 p, li, blockquote {
     margin-bottom: 1rem;
     font-size: inherit;
@@ -76,7 +31,148 @@ p, li, blockquote {
 }
 
 
+/* header/topbar */
+
+.title-bar-left {
+    padding-left: 10px;
+
+    .menu-icon {
+      width: 18px;
+    }
+    a {
+     font-size: 1.2rem;
+    }
+}
+.title-bar-title {
+    padding-left: 5px;
+}
+
+.top-bar-outer {
+  background-color: #2C3840;
+  nav.top-bar {
+
+    max-width: 90rem;
+
+    margin: 0 auto;
+
+    max-height: 75px;
+
+    .top-bar-left {
+      min-width: 55rem;
+      margin-top: 50px;
+      .site-desktop-title.top-bar-title {
+
+        font-size: 18px;
+
+        a {
+          color: #e6e6e6;
+          font-size: inherit;
+        }
+
+        #logo {
+          float: left;
+          border: 1px solid white;
+
+          #logo-inner {
+
+            margin-left: 74px;
+
+            margin-top: 0;
+
+            position: absolute;
+            -webkit-transform: rotate(34deg);
+            -ms-transform: rotate(34deg);
+            transform: rotate(34deg);
+            display: block;
+
+
+            img {
+              transform: scale(2.4);
+            }
+          }
+
+        }
+        #title {
+          float: left;
+          margin-left: 330px;
+          h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            a {
+              padding: 0;
+              font-weight: normal;
+            }
+          }
+          h2 {
+            font-size: 2.5rem;
+            margin: 0;
+          }
+        }
+
+
+      }
+    }
+
+    .menu  {
+        margin-right: 1rem;
+        li, li:not(:last-child), li:not(.menu-text) {
+          border-right: 0px solid #4e4e4e;
+          margin: 0;
+
+          a {
+            color: #e6e6e6;
+            padding: 0.7rem;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 1;
+            background: transparent;
+          }
+          a:hover  {
+            background-color: #42525D;
+          }
+          a::before {
+            content: url('../images/freifunk_pfeil.svg');
+            display: inline-block;
+            color: #ffb400;
+            line-height: 0;
+            transform: scale(0.6);
+            vertical-align: -10px;
+            width: 38px;
+            @media screen and (max-width: 39.9375em) {
+              transform: scale(0.5);
+              vertical-align: -10px;
+              width: 42px;
+            }
+          }
+        }
+
+    }
+  }
+}
+/* banner image */
+
+#banner {
+    height: 300px;
+    overflow: hidden;
+    width: 100%;
+
+
+    img {
+      width: 120%;
+      max-width: 200%;
+    }
+}
+
+/* main content */
+
 .main-container {
+
+  margin-top: 275px;
+
+
+  .entry-content {
+    margin-bottom: 50px;
+  }
   a {
     color: $freifunk-color-magenta;
     border-bottom: 2px solid $freifunk-color-magenta;
@@ -104,7 +200,7 @@ p, li, blockquote {
     display: inline-block;
     color: #ffb400;
     line-height: 0;
-    transform: scale(0.7);
+    transform: scale(0.82);
     vertical-align: -5px;
     width: 48px;
     @media screen and (max-width: 39.9375em) {
@@ -132,6 +228,8 @@ p, li, blockquote {
   p.edit-link,
   p.byline.author {
     color: #644;
+    font-size: 15px;
+
     @media screen and (max-width: 39.9375em) {
       font-size: 15px;
     }
@@ -157,7 +255,7 @@ p, li, blockquote {
     display: block;
     ul {
       list-style-type: none;
-      margin-left: 0;
+      margin: 0 0 3.5rem -1.5rem;
       li {
         margin: 1.5rem 0;
       }

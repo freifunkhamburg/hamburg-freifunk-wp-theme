@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="45.431267mm"
+   height="27.140495mm"
+   viewBox="0 0 45.431267 27.140495"
+   version="1.1"
+   id="svg871"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="hamburg_freifunk_net_logo__modified.svg">
+  <defs
+     id="defs865" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.0508921"
+     inkscape:cx="196.35409"
+     inkscape:cy="185.96064"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0">
+    <sodipodi:guide
+       position="39.271552,8.8255844"
+       orientation="0,1"
+       id="guide1434"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="9.0951276,11.223774"
+       orientation="0,1"
+       id="guide1436"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata868">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-35.417432,-54.98366)">
+    <ellipse
+       id="circle819-4"
+       stroke-miterlimit="4"
+       cy="73.799973"
+       cx="43.115986"
+       style="fill:none;stroke:#de2c68;stroke-width:0.45217288;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       rx="8.600956"
+       ry="8.769124"
+       transform="rotate(-0.8801505)" />
+    <ellipse
+       id="circle821-9"
+       stroke-miterlimit="4"
+       cy="69.378296"
+       cx="58.432541"
+       style="fill:none;stroke:#de2c68;stroke-width:0.45217291;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       rx="9.2845058"
+       ry="9.4432859"
+       transform="rotate(-0.8801505)" />
+    <ellipse
+       id="circle823-8"
+       stroke-miterlimit="4"
+       cy="69.378242"
+       cx="58.392929"
+       style="fill:none;stroke:#de2c68;stroke-width:2.44633746;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       rx="12.147201"
+       ry="12.266263"
+       transform="rotate(-0.8801505)" />
+    <polygon
+       id="polygon825-8"
+       transform="matrix(0.3834332,-0.00589058,0.00558345,0.36344137,29.972979,55.091569)"
+       points="26,44 30,48 22,48 22,52 30,52 26,56 31,56 37,50 31,44 "
+       style="fill:#ffcc33;fill-opacity:1" />
+    <polygon
+       id="polygon827-5"
+       transform="matrix(0.40105037,-0.00616123,0.0063765,0.41506269,29.251314,50.562758)"
+       points="73,59 81,59 75,53 88,53 88,47 75,47 81,41 73,41 64,50 "
+       style="fill:#ffcc33;fill-opacity:1" />
+    <polygon
+       style="fill:#ffcc33;fill-opacity:1"
+       points="30,48 22,48 22,52 30,52 26,56 31,56 37,50 31,44 26,44 "
+       transform="matrix(0.3834332,-0.00589057,0.00558345,0.36344137,66.382498,50.728189)"
+       id="polygon825-8-44" />
+  </g>
+</svg>

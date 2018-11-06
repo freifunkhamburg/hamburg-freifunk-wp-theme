@@ -1,6 +1,6 @@
 hamburg-freifunk-wp-theme (2018)
 
-FoundationPress relies to not-up-to-date dependencies, works with node.js ~6, use n to install older nodes
+FoundationPress relies to not-up-to-date dependencies, works with node.js ~6, use n to install older version node.js
 
 $ n 6
 
@@ -12,6 +12,6 @@ $ ncu -u
 
 (install ncu with $ npm install -g npm-check-updates)
 
-during design/development, render SCSS
+during design/development, render SCSS etc
 
 $ npm start

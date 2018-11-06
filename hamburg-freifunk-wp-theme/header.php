@@ -34,19 +34,43 @@
 			</div>
 		</div>
 
-		<nav class="site-navigation top-bar" role="navigation">
-			<div class="top-bar-left">
-				<div class="site-desktop-title top-bar-title">
-					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
+		<div class="top-bar-outer">
+			<nav class="site-navigation top-bar" role="navigation">
+				<div class="top-bar-left">
+					<div class="site-desktop-title top-bar-title">
+						<div id="logo">
+							<div id="logo-inner">
+								<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+									<img src="/wp-content/themes/hamburg-freifunk-wp-theme/dist/assets/images/hamburg_freifunk_net_logo__modified.svg"  />
+								</a>
+							</div>
+						</div>
+						<div id="title">
+							<h1>
+								<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+									<span class="title"><?php bloginfo( 'name' ); ?></span>
+								</a>
+							</h1>
+							<h2>
+								 Für freies WLAN in Hamburg
+							</h2>
+						</div>
+					</div>
 				</div>
-			</div>
-			<div class="top-bar-right">
-				<?php foundationpress_top_bar_r(); ?>
+				<div class="top-bar-right">
+					<?php foundationpress_top_bar_r(); ?>
 
-				<?php if ( ! get_theme_mod( 'wpt_mobile_menu_layout' ) || get_theme_mod( 'wpt_mobile_menu_layout' ) === 'topbar' ) : ?>
-					<?php get_template_part( 'template-parts/mobile-top-bar' ); ?>
-				<?php endif; ?>
-			</div>
-		</nav>
+					<?php if ( ! get_theme_mod( 'wpt_mobile_menu_layout' ) || get_theme_mod( 'wpt_mobile_menu_layout' ) === 'topbar' ) : ?>
+						<?php get_template_part( 'template-parts/mobile-top-bar' ); ?>
+					<?php endif; ?>
+				</div>
+			</nav>
+		</div>
 
 	</header>
+
+	<div id="banner" class="hide">
+		<img src="/wp-content/themes/hamburg-freifunk-wp-theme/dist/assets/images/header/20150202_201457_Pano_k.jpg" />
+		<img src="/wp-content/themes/hamburg-freifunk-wp-theme/dist/assets/images/header/2012.12.31 29C3.jpg" />
+		<img src="/wp-content/themes/hamburg-freifunk-wp-theme/dist/assets/images/header/hamburg_freifunk_topomap_001.jpg" />
+	</div>
