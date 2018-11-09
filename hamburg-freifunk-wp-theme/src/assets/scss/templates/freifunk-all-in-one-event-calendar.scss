@@ -1,0 +1,80 @@
+/* hamburg-freifunk-wp-theme: adaption/overrides of all-in-one-event-calendar theme (2018) */
+
+$freifunk-color-magenta: rgb(220,0,103);
+$freifunk-color-yellow:  rgb(255,180,0);
+$freifunk-color-blue: rgb(0,158,224);
+
+.main-container {
+
+  .ai1ec-agenda-widget-view {
+
+    margin-bottom: 25px;
+
+  }
+  .ai1ec-agenda-widget-view .ai1ec-date,
+  .ai1ec-agenda-view .ai1ec-date {
+    border-top: 0px solid #e5e5e5;
+    background: none;
+  }
+  .ai1ec-agenda-widget-view .ai1ec-date-title, .ai1ec-agenda-view .ai1ec-date-title {
+
+      border: 1px solid #888;
+      border-top: none;
+      border-radius: 5px;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      color: #525252;
+      float: left;
+      font-weight: bold !important;
+      background-image: none;
+      filter: none;
+      line-height: 1.2em;
+      margin: 6.5px 0.75em;
+      overflow: hidden;
+      text-align: center;
+      text-shadow: 0 1px 0 #fff;
+      width: 4em;
+
+  }
+  .ai1ec-agenda-widget-view .ai1ec-event > a {
+      background: transparent;
+      border: 0px solid #ccc;
+      color: #333;
+  }
+
+  .ai1ec-agenda-widget-view .ai1ec-month, .ai1ec-agenda-view .ai1ec-month {
+
+    background: #dc0067;
+    border-radius: 0;
+    color: #fff;
+    font-size: inherit;
+    letter-spacing: 0.2em;
+    padding: 0.2em 0.2em;
+    text-transform: inherit;
+    text-shadow: none;
+
+  }
+  .ai1ec-subscribe-buttons-widget {
+    padding: 0 0 0 0;
+  }
+  .timely .ai1ec-btn {
+    border: 1px solid transparent;
+  }
+  .timely .ai1ec-btn-default:hover, .timely .ai1ec-btn-default:focus, .timely .ai1ec-btn-default:active, .timely .ai1ec-btn-default.ai1ec-active, .ai1ec-open .ai1ec-dropdown-toggle.timely .ai1ec-btn-default {
+    color: #333;
+    background-color: #fff;
+  }
+
+  /* index view */
+  .ai1ec-agenda-view .ai1ec-event {
+    background: #fff;
+    border: none;
+    .ai1ec-event-title {
+       color: #333;
+    }
+  }
+
+}

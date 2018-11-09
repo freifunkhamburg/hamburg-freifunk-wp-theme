@@ -1,9 +1,10 @@
+/* hamburg-freifunk-wp-theme (2018) */
+
 $freifunk-color-magenta: rgb(220,0,103);
 $freifunk-color-yellow:  rgb(255,180,0);
 $freifunk-color-blue: rgb(0,158,224);
 
 body {
-
     font-family: hk_groteskmedium, "Helvetica Neue", sans-serif;
     font-weight: normal;
     line-height: 1.5;
@@ -23,7 +24,7 @@ p, li, blockquote {
     font-size: inherit;
     line-height: 1.6;
     text-rendering: optimizeLegibility;
-    font-size: 20px;
+    font-size: 17px;
     @media screen and (max-width: 39.9375em) {
       line-height: 1.5;
       font-size: 18px;
@@ -58,7 +59,7 @@ p, li, blockquote {
     max-height: 75px;
 
     .top-bar-left {
-      min-width: 55rem;
+      min-width: 48rem;
       margin-top: 50px;
       .site-desktop-title.top-bar-title {
 
@@ -104,7 +105,7 @@ p, li, blockquote {
             }
           }
           h2 {
-            font-size: 2.5rem;
+            font-size: 1.8rem;
             margin: 0;
           }
         }
@@ -112,8 +113,10 @@ p, li, blockquote {
 
       }
     }
-
-    .menu  {
+    .top-bar-right {
+      background-color: #2C3840;
+      margin-top: 30px;
+     .menu  {
         margin-right: 1rem;
         li, li:not(:last-child), li:not(.menu-text) {
           border-right: 0px solid #4e4e4e;
@@ -121,7 +124,7 @@ p, li, blockquote {
 
           a {
             color: #e6e6e6;
-            padding: 0.7rem;
+            padding: 0rem 0.7rem 0;
             font-weight: normal;
             font-size: 18px;
             line-height: 1;
@@ -145,8 +148,11 @@ p, li, blockquote {
             }
           }
         }
-
+      }
     }
+
+
+
   }
 }
 /* banner image */
@@ -167,9 +173,11 @@ p, li, blockquote {
 
 .main-container {
 
-  margin-top: 275px;
+  margin-top: 235px;
 
-
+  @media screen and (max-width: 39.9375em) {
+    margin-top: 20px;
+  }
   .entry-content {
     margin-bottom: 50px;
   }
