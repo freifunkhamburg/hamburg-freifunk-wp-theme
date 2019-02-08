@@ -1,12 +1,17 @@
 // Navigation breakpoints
 .mobile-menu,
 .site-title-bar {
-  @include hide-for(medium);
+  /*  @include hide-for(medium); */
+  /* display: none !important; */
+  @include hide-for(large);
 }
 
 .desktop-menu,
 .site-navigation .top-bar-left {
-  @include show-for(medium);
+  /* @include show-for(medium); */
+  /*  display: block !important; */
+  @include show-for(large);
+
 }
 
 // Site title
