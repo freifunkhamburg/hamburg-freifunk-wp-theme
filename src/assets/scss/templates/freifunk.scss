@@ -34,6 +34,11 @@ p, li, blockquote {
 
 /* header/topbar */
 
+header.site-header {
+    position: relative;
+    z-index: 10;
+}
+
 .title-bar-left {
     padding-left: 10px;
 
@@ -46,6 +51,7 @@ p, li, blockquote {
 }
 .title-bar-title {
     padding-left: 5px;
+    position: relative;
 }
 
 .top-bar-outer {
@@ -115,9 +121,14 @@ p, li, blockquote {
     }
     .top-bar-right {
       background-color: #2C3840;
-      margin-top: 30px;
+      margin-top: 0;
+      @media screen and (min-width: 39.9375em) {
+        margin-top: 30px;
+      }
      .menu  {
         margin-right: 1rem;
+        margin-top: 100px;
+
         li, li:not(:last-child), li:not(.menu-text) {
           border-right: 0px solid #4e4e4e;
           margin: 0;
