@@ -1,11 +1,17 @@
-# hamburg-freifunk-wp-theme (2018)
+hamburg-freifunk-wp-theme (2018)
 
-Work in progress: Re-designing the [hamburg.freifunk.net](https://hamburg.freifunk.net/) website, according to the common [Freifunk styles](https://wiki.freifunk.net/Freifunk-Styles)
+FoundationPress relies to not-up-to-date dependencies, works with node.js ~6, use n to install older version node.js
 
-Theme based on [FoundationPress](https://github.com/olefredrik/FoundationPress) v2.10.4 plus manually updated dependencies
+$ n 6
 
-[HK Grotesk Font](https://hanken.co/product/hk-grotesk/) by Alfredo Marco Pradil (hello@hanken.co) under a SIL Open Font License (OFL)
+keep dependencies updated
 
+$ ncu
 
+$ ncu -u
 
+(install ncu with $ npm install -g npm-check-updates)
 
+during design/development, render SCSS etc
+
+$ npm start
