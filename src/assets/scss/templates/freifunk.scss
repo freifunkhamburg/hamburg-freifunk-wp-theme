@@ -260,8 +260,9 @@ header.site-header {
   }
 
 
-
-  article p {
+  article p,
+  article ul
+   {
     margin-left: 0;
     margin-right: 0;
     @media screen and #{$large-up} {
@@ -269,6 +270,10 @@ header.site-header {
       margin-right: 65px;
     }
   }
+  article ul li {
+    margin-left: 15px;
+  }
+
   p.edit-link,
   p.byline.author {
     color: #644;
@@ -306,6 +311,15 @@ header.site-header {
       a  {
         padding: 1rem;
         border-bottom: none;
+
+
+        text-indent: -40px;
+        margin-left: 40px;
+        display: block !important;
+        margin-right: 50px;
+        padding: 0 10px !important;
+
+
       }
       a:hover {
         background-color: #e0e0f0;
@@ -323,6 +337,9 @@ header.site-header {
           transform: scale(0.6);
           vertical-align: -10px;
           width: 38px;
+
+          vertical-align: -12px;
+          text-align: right;
         }
       }
     }
