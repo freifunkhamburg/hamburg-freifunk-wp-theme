@@ -12,6 +12,12 @@ $ ncu -u
 
 (install ncu with $ npm install -g npm-check-updates)
 
-during design/development, render SCSS etc
+during design/development, render SCSS etc:
 
 $ npm start
+
+render and pack for deployment
+
+$ npm run package
+
+(zip file will be located in packaged folder)
