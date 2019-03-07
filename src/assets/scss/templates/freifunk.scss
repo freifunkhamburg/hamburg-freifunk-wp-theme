@@ -136,18 +136,26 @@ header.site-header {
     .top-bar-right {
       background-color: $dark-color;
       margin-top: 0;
+      width: 100%;
       @media screen and #{$large-up} {
         margin-top: 40px;
+        margin-left: auto;
+        width: unset;
       }
       @media screen and #{$verylarge-up} {
         margin-top: 0;
       }
      .menu  {
         margin-right: 1rem;
-        margin-top: 110px;
+        margin-top: 0;
         margin-bottom: 10px;
+        @media screen and #{$medium-only} {
+          margin-top: 110px;
+
+        }
         @media screen and #{$large-up} {
             margin-top: 0;
+
         }
 
         li, li:not(:last-child), li:not(.menu-text) {
