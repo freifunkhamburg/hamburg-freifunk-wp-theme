@@ -27,13 +27,13 @@
   "dependencies": {
     "foundation-sites": "6.5.3",
     "jquery": "~3.3.1",
-    "what-input": "^5.1.2",
-    "motion-ui": "~2.0.3"
+    "motion-ui": "~2.0.3",
+    "what-input": "^5.1.2"
   },
   "devDependencies": {
     "ansi-colors": "^3.2.1",
     "babel-core": "^6.26.3",
-    "babel-loader": "^8.0.5",
+    "babel-loader": "^7.1.5",
     "babel-preset-es2015": "^6.3.13",
     "babel-register": "^6.7.2",
     "browser-sync": "^2.10.0",

@@ -4,6 +4,25 @@ FoundationPress relies to not-up-to-date dependencies, works with node.js ~6, us
 
 $ n 6
 
+install gulp
+
+$ sudo npm -g install gulp
+
+install node modules
+
+$ npm install
+
+it there is a problem with babel versions, like
+
+`
+ babel-loader@8 requires Babel 7.x (the package '@babel/core'). If you'd like to use Babel 6.x ('babel-core'), you should install 'babel-loader@7'.
+`
+
+try...
+
+$ npm install --save-dev babel-loader@7
+
+
 keep dependencies updated
 
 $ ncu
