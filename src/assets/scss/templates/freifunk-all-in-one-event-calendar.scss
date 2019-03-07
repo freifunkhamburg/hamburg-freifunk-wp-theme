@@ -1,4 +1,4 @@
-/* hamburg-freifunk-wp-theme: adaption/overrides of all-in-one-event-calendar theme (2018) */
+/* hamburg-freifunk-wp-theme: adaption/overrides of all-in-one-event-calendar theme (2019) */
 
 $freifunk-color-magenta: rgb(220,0,103);
 $freifunk-color-yellow:  rgb(255,180,0);
@@ -59,6 +59,10 @@ $freifunk-color-blue: rgb(0,158,224);
   }
   .ai1ec-subscribe-buttons-widget {
     padding: 0 0 0 0;
+  }
+  .timely {
+    font-family: hk_groteskmedium,, inherit"Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
   }
   .timely .ai1ec-btn {
     border: 1px solid transparent;

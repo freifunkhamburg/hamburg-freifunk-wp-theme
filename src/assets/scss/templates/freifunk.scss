@@ -35,6 +35,9 @@ p, li, blockquote {
     font-size: 18px;
     line-height: 1.5;
     word-break: break-word;
+    @media screen and #{$medium-only} {
+      margin-bottom: .25rem;
+    }
     @media screen and #{$large-up} {
       font-size: 17px;
       line-height: 1.6;
@@ -306,7 +309,7 @@ header.site-header {
       list-style-type: none;
       margin: 0 0 3.5rem -1.5rem;
       li {
-        margin: 1.5rem 0;
+        margin: .5rem 0;
       }
       a  {
         padding: 1rem;
@@ -316,9 +319,11 @@ header.site-header {
         text-indent: -40px;
         margin-left: 40px;
         display: block !important;
-        margin-right: 50px;
-        padding: 0 10px !important;
 
+        padding: 0 10px !important;
+        @media screen and #{$large-up} {
+          margin-right: 50px;
+        }
 
       }
       a:hover {
@@ -333,13 +338,11 @@ header.site-header {
         transform: scale(0.5);
         vertical-align: -10px;
         width: 42px;
+        text-align: right;
         @media screen and #{$large-up} {
           transform: scale(0.6);
           vertical-align: -10px;
           width: 38px;
-
-          vertical-align: -12px;
-          text-align: right;
         }
       }
     }
