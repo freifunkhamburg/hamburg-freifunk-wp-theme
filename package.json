@@ -30,7 +30,7 @@
     "jquery": "^3.4.1",
     "minimist": "^1.2.5",
     "motion-ui": "~2.0.3",
-    "serialize-javascript": "^1.9.1",
+    "serialize-javascript": "^2.1.1",
     "what-input": "^5.1.2"
   },
   "devDependencies": {
