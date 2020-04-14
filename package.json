@@ -26,8 +26,11 @@
   ],
   "dependencies": {
     "acorn": "^6.4.1",
+    "decompress": "^4.2.1",
     "foundation-sites": "6.5.3",
+    "handlebars": "^4.7.6",
     "jquery": "^3.4.1",
+    "kind-of": "^6.0.3",
     "minimist": "^1.2.5",
     "motion-ui": "~2.0.3",
     "serialize-javascript": "^2.1.1",
