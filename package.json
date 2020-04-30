@@ -29,7 +29,7 @@
     "decompress": "^4.2.1",
     "foundation-sites": "6.5.3",
     "handlebars": "^4.7.6",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "kind-of": "^6.0.3",
     "minimist": "^1.2.5",
     "motion-ui": "~2.0.3",
